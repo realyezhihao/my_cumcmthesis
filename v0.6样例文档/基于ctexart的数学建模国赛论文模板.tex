@@ -1,9 +1,11 @@
-\documentclass{my_cumcmthesis}
+% 要由本.tex文件编译得到对应的.pdf文档，请使用xetex连续编译两次
+\documentclass[nogbt]{my_cumcmthesis}
 \usepackage{booktabs} %用于绘制三线表
 \usepackage{graphicx} %用于插入图片
 \usepackage{subcaption} %用于插入子图
 \usepackage{metalogo} %用于表现XeLaTeX的LOGO
 \usepackage{zhlipsum} %用于检测排版
+\usepackage{amsmath,amssymb} %数学相关
 
 \title{基于ctexart的数学建模国赛论文模板} %论文标题
 \author{Zhihao Ye} %作者（可填可不填）
@@ -21,8 +23,6 @@
     \textbf{预设置或重定义了各种排版细节}，包括但不限于摘要环境、各级标题、附录代码块等，使论文格式达到国赛的要求。
 
     \textbf{新定义了各种命令和环境}，包括但不限于关键词命令、定理类环境等，增加论文书写的效率。
-
-    笔者联系方式为\url{scyzhh@126.com}，还请各位大佬赐教！
 
     \keywords{\LaTeX{} \quad \CTeX \quad 数学建模}
 \end{abstract}
@@ -216,7 +216,7 @@
 \begin{lstlisting}
     functionFitting.m
     FunctionFitting.pdf
-    国赛论文格式.doc
+    全国大学生数学建模竞赛论文格式规范.doc
     合奏.png
     朋友.jpg
     影院纵向剖面示意图.pdf

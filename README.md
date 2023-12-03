@@ -1,3 +1,6 @@
-# my_cumcmthesis
-A LaTeX Template  
-这是为**全国大学生数学建模竞赛**设计的LaTeX模板。
+# The my_cumcmthesis Document Class
+my_cumcmthesis文档类是一个用于中国大学生数学建模大赛论文撰写的LaTeX模板。<bar>
+The my_cumcmthesis document class is a LaTeX template designed for CUMCM.
+
+详情见*my_cumcmthesis document class.pdf*。<bar>
+For more details, please refer to *my_cumcmthesis document class.pdf*.
